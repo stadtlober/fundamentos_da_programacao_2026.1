@@ -8,8 +8,6 @@ print(f"O sabor escolhido da pizza é {pizza_sabor}, o tamanho é {pizza_tamanho
 # Promoções -> Estruturas Condicionais
 # Comprando qualquer pizza e qualquer tamanho no sábado, o refri é gratuito.
 
-if dia_semana = "sábado":
-
 # Comprando uma pizza de cabalebra tamanho médio, em qualquer dia, o frete é grátis.
 
 # Comprando qualquer pizza de qualquer tamanho no domingo, o frete e o refri são gratuitos.
