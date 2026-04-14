@@ -20,7 +20,7 @@ valor_parcela = int(valor_emprestimo * (taxa * (1 + taxa)**numero_parcelas) / ((
 # Se a idade for menor que 18 → o empréstimo é negado automaticamente
 
 # Verificação de Dados
-print(f"O cliente tem {idade}, salário de R$ {salario} e {tempo_trabalho} anos de trabalho. O empréstimo desejado é no valor de R$ {valor_emprestimo}, em {numero_parcelas} parcelas de R$ {valor_parcela}")
+print(f"O cliente tem {idade} anos, salário de R$ {salario} e {tempo_trabalho} anos de trabalho. O empréstimo desejado é no valor de R$ {valor_emprestimo}, em {numero_parcelas} parcelas de R$ {valor_parcela}")
 
 # Análise da Solicitação
 if idade < 18:
@@ -29,7 +29,7 @@ elif valor_parcela > 0.3 * salario:
     print(f"Seu empréstimo foi negado pois a parcela compromete mais de 30% da sua renda.")
 elif salario >= 5000:
     print(f"Empréstimo aprovado!")
-elif idade >= 18 and salario >= 2000 and tempo >= 2:
+elif idade >= 18 and salario >= 2000 and tempo_trabalho >= 2:
      print(f"Seu pedido de empréstimo está em análise!")
 else:
     print("Seu empréstimo foi negado pois você não atende as condições básicas necessárias.")
